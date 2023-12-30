@@ -1,0 +1,7 @@
+{
+  "name": "Pontallink2",
+  "displayName": "Pontallink2",
+  "android": {
+    "package": "com.pontallink"
+  }
+}
