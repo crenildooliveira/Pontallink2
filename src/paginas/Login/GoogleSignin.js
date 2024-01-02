@@ -1,8 +1,11 @@
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
+import { useNavigation } from '@react-navigation/native';
+
+const navigation = useNavigation();
 
 // Configurar as credenciais
 GoogleSignin.configure({
-  webClientId: '936576413693-ovoaemaijg975015eb89rj6pqbb8rd52.apps.googleusercontent.com',
+  webClientId: '907709154105-2anbeclit1kqp8a492v6fa7lrkhtkgdm.apps.googleusercontent.com',
   offlineAccess: true,
 });
 
@@ -12,6 +15,7 @@ const handleGoogleLogin = async () => {
     await GoogleSignin.hasPlayServices();
     const userInfo = await GoogleSignin.signIn();
     console.log(userInfo);
+    navigation.navigate('Feed');
     // Você pode usar as informações do usuário aqui
   } catch (error) {
     console.error('Erro ao fazer login com o Google:', error);
