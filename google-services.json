@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "788819378274",
+    "project_id": "pontallink-ca2c3",
+    "storage_bucket": "pontallink-ca2c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788819378274:android:f3ff2cd7a32f8f3facd13b",
+        "android_client_info": {
+          "package_name": "com.pontallink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAybvOSEZUiZFhv8Of8l9wrjctKlBnS53o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

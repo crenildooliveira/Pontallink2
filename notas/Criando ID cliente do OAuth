@@ -1,0 +1,33 @@
+ANDROID ----------------------------------------------------------------------
+
+Obtendo package:
+android/src/main
+AndroidManifest.xml
+
+Obtendo impressão digital:
+No ramo principal use
+- cd android
+./gradlew signingReport
+
+informações google OAuth
+
+nome do pacote:
+com.pontallink
+
+
+Impressão digital para certificação SHA-1:
+5E:8F:16:06:2E:A3:CD:2C:4A:0D:54:78:76:BA:A6:F3:8C:AB:F6:25
+
+-----------------------------------------------------------------------------
+
+WEB -------------------------------------------------------------------------
+
+Origens JavaScript autorizadas:
+
+https://pontallink.com
+http://localhost:3000
+
+URIs de redirecionamento autorizados:
+
+https://pontallink.com/auth/google
+http://localhost:3000/auth/google
