@@ -12,7 +12,7 @@ export default function BemVindo() {
                 <animatable.Image
                     delay={900}
                     animation="bounceInLeft"
-                    source={require('../../assets/logo1.png')}
+                    source={require('../../assets/logo31.png')}
                     style={{width: "100%"}}
                     resizeMode="contain"
                 />
@@ -20,7 +20,7 @@ export default function BemVindo() {
                 <animatable.Image
                     delay={1200}
                     animation="fadeInDown"
-                    source={require('../../assets/logo2.png')}
+                    source={require('../../assets/logo23.png')}
                     style={{width: "100%"}}
                     resizeMode="contain"
                 />

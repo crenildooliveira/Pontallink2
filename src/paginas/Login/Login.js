@@ -15,7 +15,7 @@ export default function Login() {
                 <animatable.Image
                     delay={600}
                     animation="fadeIn"
-                    source={require('../../assets/logo1.png')}
+                    source={require('../../assets/logo31.png')}
                     style={{width: "100%"}}
                     resizeMode="contain"
                 />
@@ -47,11 +47,7 @@ export default function Login() {
                 </TouchableOpacity>
                 */}
                 {/* Linhas de separação visual*/} 
-                <View style={styles.lineContainer}>
-                    <View style={styles.line} />
-                    <Text style={styles.orText}></Text>
-                    <View style={styles.line} />
-                </View>
+                
                 {/* Linhas de separação visual */}
 
                 <TouchableOpacity style={styles.buttonLogin} onPress={handleGoogleLogin}>
@@ -60,11 +56,7 @@ export default function Login() {
 
 
                 {/* Linhas de separação visual*/} 
-                <View style={styles.lineContainer}>
-                    <View style={styles.line} />
-                    <Text style={styles.orText}></Text>
-                    <View style={styles.line} />
-                </View>
+                
                 {/* Linhas de separação visual */}
 
                 {/*
@@ -91,9 +83,9 @@ const styles = StyleSheet.create({
 
     },
     containerLogo:{
-        marginTop: "30%",
+        marginTop: "40%",
     },
-    containerForm:{
+    /*containerForm:{
         backgroundColor: "#fff",
         borderTopLeftRadius: 25,
         borderTopRightRadius: 25,
@@ -101,7 +93,7 @@ const styles = StyleSheet.create({
         borderBottomRightRadius: 25,
         paddingStart: "5%",
         paddingEnd: "5%",
-    },
+    },*/
     title:{
         fontSize: 20,
         marginTop: 28,
@@ -116,16 +108,18 @@ const styles = StyleSheet.create({
         alignSelf: 'flex-end'
     },
     buttonLogin:{
-        backgroundColor: "#7DA8DE",
+        backgroundColor: "#fff",
         width: "100%",
-        borderRadius: 4,
+        borderRadius: 30,
         paddingVertical: 8,
-        marginTop: 14,
+        marginTop: 150,
         justifyContent: "center",
         alignItems: "center",
+        width: 250,
+        margin: 80,
     },
     LoginText:{
-        color: "#fff",
+        color: "#7DA8DE",
         fontSize: 18,
         fontWeight: "bold"
     },
